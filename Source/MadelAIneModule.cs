@@ -189,8 +189,6 @@ public class MadelAIneModule : EverestModule
             PlayerYPosition = pos.Y,
             PlayerDied = player.Dead,
             PlayerReachedNextRoom = reachedNextRoom,
-            TargetXPosition = 2000f,                // FIXME: Currently hardcoded to final dash cutscene of prologue
-            TargetYPosition = 60f,                  // FIXME: Currently hardcoded to final dash cutscene of prologue
             ScreenWidth = target.Width,
             ScreenHeight = target.Height,
             ScreenPixelsBase64 = base64String,

@@ -17,12 +17,6 @@ namespace Celeste.Mod.MadelAIne
         [JsonPropertyName("playerReachedNextRoom")]
         public bool PlayerReachedNextRoom { get; set; }
 
-        [JsonPropertyName("targetXPosition")]
-        public float TargetXPosition { get; set; }
-
-        [JsonPropertyName("targetYPosition")]
-        public float TargetYPosition { get; set; }
-
         [JsonPropertyName("screenWidth")]
         public int ScreenWidth { get; set; }
 
