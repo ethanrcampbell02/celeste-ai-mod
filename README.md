@@ -52,7 +52,7 @@ Celeste Game Engine
          └── celeste-ai-mod/
              ├── everest.yaml
              ├── bin/
-             │   └── CelesteAI.dll
+             │   └── MadelAIne.dll
              └── Source/ (if compiling from source)
      ```
 
@@ -97,7 +97,7 @@ The mod dependencies are defined in `everest.yaml`:
 ```yaml
 - Name: CelesteAI
   Version: 1.0.0
-  DLL: bin/CelesteAI.dll
+  DLL: bin/MadelAIne.dll
   Dependencies:
     - Name: EverestCore
       Version: 1.5577.0

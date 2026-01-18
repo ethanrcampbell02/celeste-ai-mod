@@ -320,10 +320,8 @@ public class MadelAIneModule : EverestModule
                     tcpClient.Close();
                     tcpClient = null;
                 }
-                var localEndPoint = new IPEndPoint(IPAddress.Loopback, 5001);
                 tcpClient = new TcpClient();
                 tcpClient.NoDelay = true;
-                tcpClient.Client.Bind(localEndPoint);
                 tcpClient.Connect("127.0.0.1", 5000);
                 tcpStream = tcpClient.GetStream();
             }
